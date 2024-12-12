@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div>
+            <h1>Aloha Deco</h1>
+        </div>
+
+        <h2 class="titulo-principal">Carrito</h2>
+        <div class="seguir-comprando">
+            <a class="boton-seguir-comprando" href="index.html">Seguir comprando</a>
+        </div>
+        <p id="carrito-vacio" class="carrito-vacio ">Tu carrito está vacío.</p>
+        <div id="carrito-productos" class="productos-container disabled">
+            <!-- Se completa con JS -->
+        </div> 
+
+        <div id="carrito-acciones" class="carrito-acciones">
+            <div class="carrito-acciones-izquierda">
+                <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">
+                    Vaciar carrito
+                </button>
+            </div>
+            <div class="carrito-total">
+                <p>Total:</p>
+                <p id="total">$3000</p>
+            </div>
+            <div class="carrito-acciones-derecha">
+                <button id="btnSWAL" class="
+                carrito-acciones-comprar"> Comprar ahora</button>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="carrito.js"></script>
+    </main>
+    
+</body>
+
+</html>
